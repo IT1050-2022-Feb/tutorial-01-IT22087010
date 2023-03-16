@@ -29,10 +29,8 @@ int main() {
     chrg=dist*50;
   }
   else{
-    chrg=30*50+(dist-30)*40;
+    chrg=30*50+(dist-30)
   }
-
-  printf("Total charge:%.2f",chrg)
   
   return 0;
 }
